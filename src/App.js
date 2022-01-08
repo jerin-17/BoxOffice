@@ -1,12 +1,10 @@
 import React from 'react';
 import { Switch,Route } from 'react-router-dom'
-import Navs from './components/Navs.js'
 import Home from './pages/Home'
 import Starred from './pages/Starred.js';
 function App() {
   return (
     <div>
-      <Navs/>
     <Switch> 
       <Route exact path="/">
         <Home />
